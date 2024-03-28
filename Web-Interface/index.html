@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dashboard-home-screen">
+      <div class="control-flow">
+        <div class="control-flow-child"></div>
+        <div class="container">
+          <img
+            class="container-child"
+            loading="lazy"
+            alt=""
+            src="./public/shubham.png"
+          />
+
+          <div class="image-container">
+            <div class="hello">
+              <span>Hello</span>
+              <span class="span"> 👋</span>
+            </div>
+            <div class="jenifer-feroz">Shubham Kumar</div>
+          </div>
+        </div>
+        <div class="link-connector">
+          <div class="menu">Menu</div>
+          <div class="data-table">
+            <div class="dropdown-menu">
+              <img
+                class="home-icon"
+                loading="lazy"
+                alt=""
+                src="./public/home.svg"
+              />
+
+              <div class="home-wrapper">
+                <div class="home">Home</div>
+              </div>
+            </div>
+            <div class="slider">
+              <!-- <img
+                class="chart-icon"
+                loading="lazy"
+                alt=""
+                src="./public/chart.svg"
+              /> -->
+
+              <!-- <div class="insights-wrapper">
+                <a href="insights.html" class="insights">Insights</a>
+              </div> -->
+            </div>
+            <div class="toggle-switch">
+              <img
+                class="document-icon"
+                loading="lazy"
+                alt=""
+                src="./public/document.svg"
+              />
+
+              <div  class="recommends-wrapper">
+                <a href="./attende-landing/index.html" target="_blank" class="recommends">Attendence</a>
+              </div>
+            </div>
+            <div class="separator">
+              <img
+                class="message-icon"
+                loading="lazy"
+                alt=""
+                src="./public/message.svg"
+              />
+
+              <div class="accordion">
+                <a href="message.html" class="messages-2">Messages</a>
+              </div>
+            </div>
+          </div>
+          <div class="settings">Settings</div>
+          <div class="data-table1">
+            <div class="profile-parent">
+              <img
+                class="profile-icon"
+                loading="lazy"
+                alt=""
+                src="./public/profile.svg"
+              />
+
+              <div class="profile-wrapper">
+                <a href="profile.html"  class="profile">Profile</a>
+              </div>
+            </div>
+            <div class="info-square-parent">
+              <img
+                class="info-square-icon"
+                loading="lazy"
+                alt=""
+                src="./public/info-square.svg"
+              />
+
+              <div class="faqs-wrapper">
+                <a href="faqs.html" class="faqs">FAQ’s</a>
+              </div>
+            </div>
+            <div class="calling-parent">
+              <img
+                class="calling-icon"
+                loading="lazy"
+                alt=""
+                src="./public/calling.svg"
+              />
+
+              <div class="contact-us-wrapper">
+                <a href="contact.html" class="contact-us">Contact us</a>
+              </div>
+            </div>
+            <div class="logout-parent">
+              <img
+                class="logout-icon"
+                loading="lazy"
+                alt=""
+                src="./public/logout.svg"
+              />
+
+              <div class="logout-wrapper">
+                <div class="logout">Logout</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="table">
+        <section class="menu-bar">
+          <nav class="tree">
+            <div class="alert-box">
+              <div class="rooms">Rooms</div>
+            </div>
+            <div class="InputContainer">
+              <input type="text" name="text" class="input" id="input" placeholder="Search">
+              
+              <label for="input" class="labelforsearch">
+            <svg viewBox="0 0 512 512" class="searchIcon"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+            </label>
+            <div class="border"></div>
+            
+            <button class="micButton"><svg viewBox="0 0 384 512" class="micIcon"><path d="M192 0C139 0 96 43 96 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"></path></svg>
+            </button>
+            </div>
+            <div class="tabs">
+              <div class="calculator">
+                <div class="tab">
+                  <div class="popover">
+                    <div class="popover-child"></div>
+                    <div class="graph"></div>
+                  </div>
+                </div>
+                <div class="iconlybrokennotification-parent">
+                  <img
+                    class="iconlybrokennotification"
+                    loading="lazy"
+                    alt=""
+                    src="./public/iconlybrokennotification.svg"
+                  />
+
+                  <div class="calendar-wrapper">
+                    <b class="calendar">6</b>
+                  </div>
+                  <div class="frame-item"></div>
+                </div>
+                <img
+                  class="calculator-child"
+                  loading="lazy"
+                  alt=""
+                  src="./public/group-48097131@2x.png"
+                />
+              </div>
+            </div>
+          </nav>
+          <div class="carousel">
+            <div class="grid">
+              <div class="formula-input">
+                <div class="message-box-list">
+                  <div class="rectangle"></div>
+                  <button class="stepper">
+                    <div class="stepper-child"></div>
+                    <img
+                      class="kitchen-cooker-utensils-icon"
+                      alt=""
+                      src="./public/kitchencookerutensilsicon.svg"
+                    />
+                  </button>
+                  <div class="kitchen-parent">
+                    <div class="kitchen">ClassRoom 1 </div>
+                    <div class="devices">8 Students</div>
+                  </div>
+                </div>
+                <div class="message-box-list1">
+                  <div class="message-box-list-child"></div>
+                  <button class="rectangle-group">
+                    <div class="frame-inner"></div>
+                    <img
+                      class="living-room-icon"
+                      alt=""
+                      src="./public/livingroomicon.svg"
+                    />
+                  </button>
+                  <div class="living-room-parent">
+                    <div class="living-room">ClassRoom 2</div>
+                    <div class="devices1">12 Students</div>
+                  </div>
+                </div>
+                <div class="message-box-list2">
+                  <div class="message-box-list-item"></div>
+                  <div class="rectangle-container">
+                    <div class="rectangle-div"></div>
+                    <img
+                      class="double-bed-icon"
+                      loading="lazy"
+                      alt=""
+                      src="./public/doublebedicon.svg"
+                    />
+                  </div>
+                </button>
+                  <div class="bedroom-parent">
+                    <div class="bedroom">ClassRoom 3</div>
+                    <div class="devices2">4 Students</div>
+                  </div>
+                </div>
+                <div class="message-box-list3">
+                  <div class="message-box-list-inner"></div>
+                  <div class="frame-div">
+                    <div class="frame-child1"></div>
+                    <img
+                      class="bathtub-icon"
+                      loading="lazy"
+                      alt=""
+                      src="./public/bathtubicon.svg"
+                    />
+                  </div>
+                </button>
+                  <div class="bathroom-parent">
+                    <div class="bathroom">ClassRoom 4</div>
+                    <div class="devices3">3 Students</div>
+                  </div>
+                </div>
+              </div>
+              <div class="input-processor">
+                <div class="output-merge">
+                  <div class="levels">Levels</div>
+                  <div class="condition-checker">
+                    <img
+                      class="arrow-right-2"
+                      loading="lazy"
+                      alt=""
+                      src="./public/arrow--right-2.svg"
+                    />
+                  </div>
+                </div>
+                <div class="flow-controller">
+                  <div class="group-div">
+                    <div class="frame-child2"></div>
+                    <div class="value-calculator">
+                      <div class="sequence-handler">
+                        <div class="error-handler">
+                          <div class="error-handler-child"></div>
+                          <img
+                            class="drop-humidity-icon-1"
+                            loading="lazy"
+                            alt=""
+                            src="./public/drophumidityicon-1.svg"
+                          />
+                        </div>
+                        <div class="output-distributor">
+                          <div class="humidity">Humidity</div>
+                        </div>
+                      </div>
+                      <div class="comparator">
+                        <div class="gate">
+                          <div class="today">Today</div>
+                          <div class="array">
+                            <img
+                              class="arrow-down-2"
+                              alt=""
+                              src="./public/arrow--down-2.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="queue">
+                      <div class="list">
+                        <div class="map">
+                          <div class="graph1">
+                            <div class="tree1">
+                              <div class="network"></div>
+                            </div>
+                            <div class="div">24°</div>
+                          </div>
+                          <div class="event">
+                            <div class="state">
+                              <div class="transition"></div>
+                            </div>
+                            <div class="div1">33°</div>
+                          </div>
+                        </div>
+                        <div class="function">
+                          <div class="algorithm">
+                            <div class="sequence">
+                              <div class="loop"></div>
+                            </div>
+                            <div class="div2">29°</div>
+                          </div>
+                          <div class="condition">
+                            <div class="rule">
+                              <div class="matrix-element"></div>
+                            </div>
+                            <div class="div3">35°</div>
+                          </div>
+                        </div>
+                        <div class="stack-top">
+                          <div class="queue-front">
+                            <div class="list-head">
+                              <div class="map-key"></div>
+                            </div>
+                            <div class="div4">24°</div>
+                          </div>
+                          <div class="data-connector">
+                            <div class="image-container-wrapper">
+                              <div class="image-container1"></div>
+                            </div>
+                            <div class="div5">40°</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="divider">
+                      <div class="shape-collection-parent">
+                        <img
+                          class="shape-collection-icon"
+                          loading="lazy"
+                          alt=""
+                          src="./public/vector-3.svg"
+                        />
+
+                        <div class="ellipse-div"></div>
+                        <div class="progress-bar"></div>
+                        <div class="icon-library"></div>
+                        <div class="flex-container"></div>
+                      </div>
+                    </div>
+                    <div class="column-layout"></div>
+                    <div class="calendar1"></div>
+                  </div>
+                  <div class="rectangle-parent1">
+                    <div class="frame-child3"></div>
+                    <div class="frame-wrapper">
+                      <div class="frame-parent">
+                        <div class="frame-group">
+                          <div class="rectangle-parent2">
+                            <div class="frame-child4"></div>
+                            <img
+                              class="drop-humidity-icon-11"
+                              loading="lazy"
+                              alt=""
+                              src="./public/drophumidityicon-1-1.svg"
+                            />
+                          </div>
+                          <div class="signal-emitter">
+                            <div class="energy">Energy</div>
+                          </div>
+                        </div>
+                        <div class="frame-container">
+                          <div class="week-parent">
+                            <div class="week">Week</div>
+                            <div class="variable-holder">
+                              <img
+                                class="arrow-down-21"
+                                alt=""
+                                src="./public/arrow--down-2.svg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="line-div"></div>
+                    <div class="frame-child5"></div>
+                    <div class="row-layout-parent">
+                      <div class="row-layout">
+                        <div class="spacer">
+                          <div class="dropdown-menu1"></div>
+                          <div class="slider1">
+                            <div class="toggle-button"></div>
+                            <div class="modal-dialog">
+                              <div class="panel"></div>
+                              <div class="tabbed-panel"></div>
+                              <div class="tool-tip"></div>
+                              <div class="canvas"></div>
+                              <div class="grid1"></div>
+                              <div class="stack"></div>
+                              <div class="scroll-pane"></div>
+                              <div class="kwh">20.6 kWh</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sun-parent">
+                        <div class="sun">Sun</div>
+                        <div class="mon">Mon</div>
+                        <div class="tue">Tue</div>
+                        <div class="wed">Wed</div>
+                        <div class="chart">
+                          <div class="thu">Thu</div>
+                        </div>
+                        <div class="form">
+                          <div class="fri">Fri</div>
+                        </div>
+                        <div class="sat">Sat</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="search-bar">
+                <div class="split-view">
+                  <div class="devices4">Devices</div>
+                  <div class="menu-bar1">
+                    <img
+                      class="arrow-right-21"
+                      loading="lazy"
+                      alt=""
+                      src="./public/arrow--right-2.svg"
+                    />
+                  </div>
+                </div>
+                <div class="carousel1">
+                  <div class="rectangle-parent3">
+                    <div class="frame-child6"></div>
+                    <div class="breadcrumbs">
+                      <div class="off">Off</div>
+                      <div class="breadcrumbs-inner">
+                        <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="collapsible-panel">
+                      <button class="group-button">
+                        <div class="frame-child9"></div>
+                        <img
+                          class="snowflake-icon-1-1"
+                          alt=""
+                          src="./public/snowflakeicon-1-1.svg"
+                        />
+                      </button>
+                      <div class="air-conditioner">Air Conditioner</div>
+                    </div>
+                  </div>
+                  <div class="rectangle-parent5">
+                    <div class="frame-child10"></div>
+                    <div class="on-parent">
+                      <div class="on">On</div>
+                      <div class="frame-wrapper1">
+                        <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="frame-parent1">
+                      <div class="rectangle-parent7">
+                        <div class="frame-child13"></div>
+                        <img
+                          class="snowflake-icon-1-11"
+                          loading="lazy"
+                          alt=""
+                          src="./public/snowflakeicon-1-1-1.svg"
+                        />
+                      </div>
+                      <div class="smart-tv">Smart TV</div>
+                    </div>
+                  </div>
+                  <div class="rectangle-parent8">
+                    <div class="frame-child14"></div>
+                    <div class="off-parent">
+                      <div class="off1">Off</div>
+                      <div class="frame-wrapper2">
+                        <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="frame-parent2">
+                      <button class="rectangle-parent10">
+                        <div class="frame-child17"></div>
+                        <img
+                          class="snowflake-icon-1-12"
+                          alt=""
+                          src="./public/snowflakeicon-1-1-2.svg"
+                        />
+                      </button>
+                      <div class="coffee-machine">Coffee Machine</div>
+                    </div>
+                  </div>
+                  <div class="rectangle-parent11">
+                    <div class="frame-child18"></div>
+                    <div class="on-group">
+                      <div class="on1">On</div>
+                      <div class="frame-wrapper3">
+                        <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="frame-parent3">
+                      <div class="rectangle-parent13">
+                        <div class="frame-child21"></div>
+                        <img
+                          class="snowflake-icon-1-13"
+                          loading="lazy"
+                          alt=""
+                          src="./public/snowflakeicon-1-1-3.svg"
+                        />
+                      </div>
+                      <div class="refrigerator">Refrigerator</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              class="carousel-child"
+              loading="lazy"
+              alt=""
+              src="./public/line-44.svg"
+            />
+
+            <div class="color-selector-parent">
+              <div class="color-selector">
+                <div class="icon-organizer">
+                  <div class="members">Members</div>
+                  <div class="view-all">View all</div>
+                </div>
+                <div class="rectangle-parent14">
+                  <div class="frame-child22"></div>
+                  <div class="triangle-trainer-parent">
+                    <div class="triangle-trainer">
+                      <img
+                        class="star-shaper-icon"
+                        loading="lazy"
+                        alt=""
+                        src="./public/rectangle-2-1@2x.png"
+                      />
+
+                      <div class="arcs-arranger">
+                        <div class="jaquiline">Guhanand</div>
+                        <div class="full-access">Full Access</div>
+                      </div>
+                    </div>
+                    <div class="triangle-trainer1">
+                      <img
+                        class="triangle-trainer-child"
+                        loading="lazy"
+                        alt=""
+                        src="./public/rectangle-2-2@2x.png"
+                      />
+
+                      <div class="sennorita-parent">
+                        <div class="sennorita">Jayanth S</div>
+                        <div class="limited-access">Limited Access</div>
+                      </div>
+                    </div>
+                    <div class="triangle-trainer2">
+                      <img
+                        class="triangle-trainer-item"
+                        loading="lazy"
+                        alt=""
+                        src="./public/rectangle-2-3@2x.png"
+                      />
+
+                      <div class="firoz-parent">
+                        <div class="firoz">Jayanth K</div>
+                        <div class="full-access1">Full Access</div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="rectangle-parent15">
+                    <div class="frame-child23"></div>
+                    <div class="add-member">Add Member</div>
+                  </button>
+                </div>
+              </div>
+              <div class="alignment-assistant">
+                <div class="history">History</div>
+                <div class="view-all1">View all</div>
+              </div>
+              <div class="spacing-supplier">
+                <div class="style-setter-parent">
+                  <div class="style-setter">
+                    <div class="effect-engine">
+                      <div class="animation-actor"></div>
+                    </div>
+                    <div class="transition-trainer">
+                      <div class="air-conditioner1">Air Conditioner</div>
+                      <div class="turned-on-container">
+                        <span>Turned on</span>
+                        <span class="span1"> </span>
+                        <span class="jaquiline1">• Shubham</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="div6">03:20</div>
+                </div>
+                <div class="frame-parent4">
+                  <div class="frame-parent5">
+                    <div class="ellipse-wrapper">
+                      <div class="frame-child24"></div>
+                    </div>
+                    <div class="refrigerator-parent">
+                      <div class="refrigerator1">Refrigerator</div>
+                      <div class="turned-on-container1">
+                        <span>Turned on</span>
+                        <span class="span2"> </span>
+                        <span class="firoz1">• Jayanth</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="div7">01:48</div>
+                </div>
+                <div class="frame-parent6">
+                  <div class="frame-parent7">
+                    <div class="ellipse-container">
+                      <div class="frame-child25"></div>
+                    </div>
+                    <div class="air-conditioner-parent">
+                      <div class="air-conditioner2">Air Conditioner</div>
+                      <div class="turned-off-container">
+                        <span>Turned off</span>
+                        <span class="span3"> </span>
+                        <span class="jaquiline2">• Guhanand</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="div8">11:36</div>
+                </div>
+                <div class="frame-parent8">
+                  <div class="frame-parent9">
+                    <div class="ellipse-frame">
+                      <div class="frame-child26"></div>
+                    </div>
+                    <div class="coffee-machine-parent">
+                      <div class="coffee-machine1">Coffee Machine</div>
+                      <div class="turned-off-container1">
+                        <span>Turned off</span>
+                        <span class="span4"> </span>
+                        <span class="jaquiline3">• Jayanth</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="div9">09:15</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
