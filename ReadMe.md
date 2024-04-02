@@ -7,10 +7,6 @@ git
 git clone https://huggingface.co/sriramahesh2000/sample2
 
 ```
-```
-git 
-git clone 
-```
 
 # Problem Statement
 
