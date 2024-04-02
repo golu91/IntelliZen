@@ -3,8 +3,7 @@ Team Name: IntelliZen
 Team Leader Email: shubhamkr.srmist@gmail.com
 
 ```
-git 
-git clone https://huggingface.co/sriramahesh2000/sample2
+git clone https://github.com/golu91/IntelliZen.git
 
 ```
 
@@ -54,7 +53,9 @@ Intel and Hugging Face" are building powerful Al optimization tools to accelerat
 
 SYCL is an open alternative to single-architecture proprietary languages. It allows developers to reuse code across hardware targets (CPUs and accelerators such as GPUs and FPGAs) and also perform custom tuning for a specific accelerator. These code walkthroughs introduce you to basic principles and practices of SYCL programming. SYCL is an alternative to single- vendor proprietary accelerator programming languages Allows code reuse across hardware targets (CPU, GPU, FPGA) and supports custom tuning for a specific platform SYCL is a Khronos standard that adds data parallelism and heterogeneous programming to familiar and standard ISO C++ oneAPI is an open source LLVM technology implementation with SYCL at its center. API extensions are driven by open and cooperative community development. Once proven, these enhancements are proposed to the parent specifications (C++ or SYCL) for implementation.
 
-
+# How to start ?
+You start our project by running the [Start Here](https://github.com/DarkTechPirate/IntelliZen/blob/main/Web-Interface/start.html) file.
+Here is the way how you can continue after that.
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
