@@ -1,5 +1,5 @@
 # Intel-Hackathon 
-Team Name: IntelliZen
+Team Name: IntelliZen <br>
 Team Leader Email: shubhamkr.srmist@gmail.com
 
 ```
