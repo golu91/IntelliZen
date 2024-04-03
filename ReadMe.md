@@ -3,7 +3,7 @@ Team Name: IntelliZen <br>
 Team Leader Email: shubhamkr.srmist@gmail.com
 
 ```
-git clone https://github.com/golu91/IntelliZen.git
+git clone https://github.com/shubhamkr790/IntelliZen.git
 
 ```
 
