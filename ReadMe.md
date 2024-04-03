@@ -61,13 +61,13 @@ Here is the way how you can continue after that.
 You will be getting this as soon as you start.
 <br>
 
-![image](https://github.com/golu91/IntelliZen/blob/main/assets/front-page.png)
+![image](https://github.com/shubhamkr790/IntelliZen/blob/main/assets/front-page.png)
 
 From here we will be moving to 
 <br>
 <br>
 
-![image](https://github.com/golu91/IntelliZen/blob/main/assets/main-dashboard.png)
+![image](https://github.com/shubhamkr790/IntelliZen/blob/main/assets/main-dashboard.png)
 
 
 Abouve image is our dashboard in the main websire where you will be able to adjust all the electrical instruments. Here you can also find the data and analysis of your power usage.
